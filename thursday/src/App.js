@@ -16,6 +16,7 @@ function App() {
   return (
     <div className="App">
       <div className="main"></div>
+      <div className="sidebar"></div>
         <Sidebar />
     </div>
   );
