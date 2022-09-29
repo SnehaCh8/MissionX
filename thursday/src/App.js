@@ -15,6 +15,7 @@ import Sidebar from './components/sidebar.js';
 function App() {
   return (
     <div className="App">
+      <div className="main"></div>
         <Sidebar />
     </div>
   );
