@@ -1,14 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Sidebar from './components/sidebar.js';
+// import helprequest from './components/helprequest.js';
+
+// function App() {
+//   return (
+//     <div className="main">
+//       <div className="sidebar">
+//         </div>
+//     </div>
+//   );
+// };
+
 
 function App() {
   return (
-    <div style={{ background: 'green' }}>
-      <h1>Hello People</h1>
-      <h2>test2</h2>
-      <h2>test3</h2>
-      <h2>test4</h2>
-      <p>This is a paragraph</p>
+    <div className="App">
+        <Sidebar />
     </div>
   );
 }
