@@ -1,24 +1,19 @@
 import React from 'react';
-import Sidebar from './components/sidebar.js';
-// import helprequest from './components/helprequest.js';
-
-// function App() {
-//   return (
-//     <div className="main">
-//       <div className="sidebar">
-//         </div>
-//     </div>
-//   );
-// };
+import Sidebar from './components/TeacherSidebar.js';
+// import helprequest from './components/HelpRequest.js';
+import TeacherNavbar from './DashboardHeader.js';
 
 
 function App() {
   return (
+    <div className="Dash-header">
+      <TeacherNavbar />
+
     <div className="App">
-      <div className="main"></div>
-      <div className="sidebar"></div>
         <Sidebar />
-    </div>
+      </div>
+
+  </div>
   );
 }
 

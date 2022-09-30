@@ -1,2 +1,2 @@
-import helprequest from './helprequest.css';
+import helprequest from './HelpRequest.css';
 
