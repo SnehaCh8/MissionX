@@ -2,26 +2,26 @@ import React from 'react';
 import './DashboardHeader.css'
 import levelupl from './LevelUpWorks-blue.png';
 
+function Button(props) {
+    return (
+        <button className={props.style}>
+            <h1>{props.text}</h1>
+
+        </button>
+
+    );
+}
+
 function TeacherNavbar() {
     return (
         <div>
 
-            <NavbarLogo href="/">
-                <img src={levelupl} alt="" />
-            </NavbarLogo>
-                <Nav className="teacher-options" navbar>
-                    <Button1>
-                            Take screenshot
-                    </Button1>
+            <img src={levelupl} alt="" />
+            
+                <div className="teacher-options">
+                    <Button style="yellowButton" text="Take Screenshot"/>
 
-                    <Button2>
-                            Help centre
-                    </Button2>
-
-                    <Button3>
-                           More projects
-                    </Button3>
-                </Nav>
+                </div>
         </div>
     );
 }

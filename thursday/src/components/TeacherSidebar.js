@@ -1,21 +1,24 @@
 import React from "react";
 import './TeacherSidebar.css';
-import ProgressTracker from "./progressTrackerSelected.png";
-import StudentProfiles from "./images/helpRequestSelected.png";
-import HelpRequest from "./images/studentProfilesSelected.png";
-import ProjectSubmissions from "./images/projectSubmissionsSelected.png";
-import ProjectLibrary from "./images/projectLibrarySelected.png";
+import ProgressTracker from "../images/progressTrackerSelected.png";
+import StudentProfiles from "../images/helpRequestsSelected.png";
+import HelpRequest from "../images/studentProfilesSelected.png";
+import ProjectSubmissions from "../images/projectSubmissionsSelected.png";
+import ProjectLibrary from "../images/projectLibrarySelected.png";
 
 function Sidebar() {
     return (
         <div className="Sidebar">
+        
 
-            <div class="Sidebar-item">
+            <div className="Sidebar-items">
 
-                <ProgressTracker className="sidebar-icon" />
-                <span className="sidebar-text">PROGRESS TRACKER</span>
+                <div className="Sidebar-Progress">
+                <img src={ProgressTracker} alt="" />
+                    <span className="sidebar-text">PROGRESS TRACKER</span>
+                </div>
 
-                <StudentProfiles className="sidebar-icon" />
+                {/* <StudentProfiles className="sidebar-icon" />
                 <span className="sidebar-text">STUDENT PROFILES</span>
 
                 <HelpRequest className="sidebar-icon" />
@@ -25,7 +28,7 @@ function Sidebar() {
                 <span className="sidebar-text">PROJECT SUBMISSIONS</span>
 
                 <ProjectLibrary className="sidebar-icon" />
-                <span className="sidebar-text">PROJECT LIBRARY</span>
+                <span className="sidebar-text">PROJECT LIBRARY</span> */}
 
                 </div>
             </div>
