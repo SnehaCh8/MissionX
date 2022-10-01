@@ -14,21 +14,30 @@ function Sidebar() {
             <div className="Sidebar-items">
 
                 <div className="Sidebar-Progress">
-                <img src={ProgressTracker} alt="" />
+                <img src={ProgressTracker} width="25px" height="25px" alt="" />
                     <span className="sidebar-text">PROGRESS TRACKER</span>
                 </div>
 
-                {/* <StudentProfiles className="sidebar-icon" />
-                <span className="sidebar-text">STUDENT PROFILES</span>
+                <div className="Sidebar-Progress">
+                    <img src={StudentProfiles} width="25px" height="25px" alt="" />
+                    <span className="sidebar-text">STUDENT PROFILES</span>
+                </div>
 
-                <HelpRequest className="sidebar-icon" />
-                <span className="sidebar-text">HELP REQUEST</span>
+                <div className="Sidebar-Progress">
+                    <img src={HelpRequest} width="25px" height="25px" alt="" />
+                    <span className="sidebar-text">HELP REQUEST</span>
+                </div>
 
-                <ProjectSubmissions className="sidebar-icon" />
-                <span className="sidebar-text">PROJECT SUBMISSIONS</span>
+                <div className="Sidebar-Progress">
+                    <img src={ProjectSubmissions} width="25px" height="25px" alt="" />
+                    <span className="sidebar-text">PROJECT SUBMISSIONS</span>
+                </div>
 
-                <ProjectLibrary className="sidebar-icon" />
-                <span className="sidebar-text">PROJECT LIBRARY</span> */}
+                <div className="Sidebar-Progress">
+                    <img src={ProjectLibrary} width="25px" height="25px" alt="" />
+                    <span className="sidebar-text">PROJECT LIBRARY</span>
+                </div>
+
 
                 </div>
             </div>

@@ -9,7 +9,8 @@ function App() {
     <div className="App">
 
     <div className="Dash-header">
-      <TeacherNavbar />
+        <TeacherNavbar />
+
        </div>
 
     <div className="test">

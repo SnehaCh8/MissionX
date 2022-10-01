@@ -1,24 +1,29 @@
-
 .Sidebar{
+    top: 62px;
+    left: 0px;
+    width: 236px;
+    height: 957px;
     position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
+    bottom: 62px;
     display: flex;
     flex-direction: column;
-    width: 200px;
-    height: 100%;
     background-color: #43C0F6;
     color: white;
     font: Open Sans, Bold;
     size: 12px;
     opacity: 100%;
 }
-/* .sidebar-item {
-    padding: 1em;
-    font-size: 1.2em;
-    color: white;
-    text-decoration: none;
-    display: block;
+.Sidebar-Progress{
+    top: 205px;
+    left: 22px;
 }
-*/
+.sidebar-text{
+font-size: 14px;
+font-family: Open Sans;
+font-weight: bold;
+align-items: left;
+top: 205px;
+left: 60px;
+width: 142px;
+height: 19px;
+}

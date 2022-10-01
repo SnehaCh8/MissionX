@@ -14,13 +14,14 @@ function Button(props) {
 
 function TeacherNavbar() {
     return (
-        <div>
+        <div className="teacher-navbar">
 
-            <img src={levelupl} alt="" />
+            <div>
+            <img src={levelupl} width="146px" height="60px" alt="" />
+            </div>
             
                 <div className="teacher-options">
                     <Button style="yellowButton" text="Take Screenshot"/>
-
                 </div>
         </div>
     );
