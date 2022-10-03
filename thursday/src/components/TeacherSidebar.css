@@ -1,29 +1,46 @@
-.Sidebar{
-    top: 62px;
+.Sidebar {
+    padding-top: 20px;
     left: 0px;
     width: 236px;
-    height: 957px;
+    /* height: 957px; */
+    height: 100%;
     position: fixed;
-    bottom: 62px;
-    display: flex;
-    flex-direction: column;
     background-color: #43C0F6;
     color: white;
-    font: Open Sans, Bold;
-    size: 12px;
-    opacity: 100%;
 }
-.Sidebar-Progress{
-    top: 205px;
-    left: 22px;
+
+.sidebar-text {
+    font-size: 14px;
+    font-family: Open Sans;
+    /* font-weight: bold;
+    /* padding-top: 20px; */
+    padding-left: 15px;
 }
-.sidebar-text{
-font-size: 14px;
-font-family: Open Sans;
-font-weight: bold;
-align-items: left;
-top: 205px;
-left: 60px;
-width: 142px;
-height: 19px;
+
+.sidebar-icon {
+    width: 25px;
+    height: 25px;
+    /* left padding not working */
+padding-left: 22px;
+}
+
+.jasmina{
+padding-left: 70px;
+/* width: 79px;
+height: 79px; */
+}
+
+.bottom-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 220px;
+}
+
+.pinkleft-arrow{
+    padding-top: 70px;
+    padding-left: 200px;
+    /* become too big after adding width and height
+    width: 64px;
+    height: 72px */
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import Sidebar from './components/TeacherSidebar.js';
 // import helprequest from './components/HelpRequest.js';
 import TeacherNavbar from './components/DashboardHeader.js';
+import HelpRequest from './components/HelpRequest.js';
 
 
 function App() {
@@ -13,8 +14,12 @@ function App() {
 
        </div>
 
-    <div className="test">
+    <div className="Teacher-Sidebar">
         <Sidebar />
+      </div>
+
+      <div className="Help-Request">
+        <HelpRequest />
       </div>
 
     </div>

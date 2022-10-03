@@ -1,3 +1,38 @@
-* {
+.request{
     background-color: #B2E4FA;
+    padding-left: 300px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    height: 100%
+}
+
+.help-request {
+    background-color: #cfebf8;
+    color: #484646;
+    font-family: open Sans;
+    width: 950px;
+    padding-top: 10px;
+    padding-left: 70px;
+    border-radius: 30px;
+    padding-bottom: 50px;
+}
+
+.aiden-project{
+    background-color: white;
+    color: #484646;
+    font-family: open Sans;
+    width: 900px;
+    height: 45px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.student-img{
+    width: 30px;
+    height: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
